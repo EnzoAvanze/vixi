@@ -1,0 +1,39 @@
+/*Fessor não deu tempo de fazer pq estava complicado, todas as pastas que tiveram chat eu coloquei um "c"*/
+
+.blog {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+.blog header, .blog footer {
+    grid-column: 1 / -1;
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
+.blog nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+}
+.blog main {
+    background: #f4f4f4;
+    padding: 15px;
+    border-radius: 8px;
+}
+.blog aside {
+    background: #ddd;
+    padding: 15px;
+    border-radius: 8px;
+}
+@media (max-width: 768px) {
+    .blog {
+    grid-template-columns: 1fr;
+    }
+    .blog aside {
+    order: 3;
+    }
+}

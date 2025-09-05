@@ -1,0 +1,122 @@
+html{
+    width: 100vw;
+    height: 100vh;
+}
+
+body{
+    margin: 0;
+    max-width: 1280px;
+    height: 585px;
+    position: absolute;
+    background-color:white;
+}
+
+
+.ozne{
+    list-style: none;
+    background-color: green;
+    border-radius: 8px;
+    transition: 1s;
+}
+
+.enzo{
+    display: flex;
+    justify-content: space-around;
+    background-color: green;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    margin: 0;
+}
+
+nav{
+    max-width: 1280px;
+}
+
+.container{
+    height: auto;
+    width: 100vw;
+}
+
+
+
+
+
+
+
+p{
+    transition: 1s;
+
+}
+
+p:hover{
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: white;    
+}
+
+
+
+
+
+
+
+
+main{
+    
+}
+
+.maid{
+
+}
+
+.caixaspai{
+    max-width: 300px;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.caixas{
+    height: 18vh;
+    width: 100px;
+}
+
+h2{
+    height: 30px;
+    width: 30px;
+    font-size: 8px;
+}
+
+img{    
+    height: 18vh;
+    width: 100px;
+}
+
+.tra{
+    width: auto;
+}
+
+.ret{
+    display: contents;
+    background-color: green;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0;
+    margin: 0;
+
+}
+
+.repo{
+    width: 300px;
+}
+
+.sidebar{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: end;
+}

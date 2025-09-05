@@ -1,0 +1,50 @@
+/*Fessor não deu tempo de fazer pq estava complicado, todas as pastas que tiveram chat eu coloquei um "c"*/
+
+
+.evento {
+      max-width: 1000px;
+      margin: auto;
+    }
+    .evento header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: #222;
+      color: white;
+      padding: 15px;
+      flex-wrap: wrap;
+    }
+    .evento nav a {
+      color: white;
+      margin: 0 10px;
+      text-decoration: none;
+    }
+    .evento .hero {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+      margin: 20px 0;
+    }
+    .evento .hero img {
+      width: 300px;
+      border-radius: 10px;
+    }
+    .evento .info {
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+    }
+    .evento footer {
+      text-align: center;
+      padding: 15px;
+      background: #222;
+      color: white;
+    }
+    @media (max-width: 768px) {
+      .evento .hero {
+        flex-direction: column;
+      }
+    }

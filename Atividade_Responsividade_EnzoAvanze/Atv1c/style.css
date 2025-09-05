@@ -1,0 +1,37 @@
+/*Fessor não deu tempo de fazer pq estava complicado, todas as pastas que tiveram chat eu coloquei um "c"*/
+
+.apresentacao {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  max-width: 800px;
+}
+.apresentacao img {
+  width: 200px;
+  border-radius: 50%;
+}
+.apresentacao .texto {
+  max-width: 400px;
+}
+.apresentacao a {
+  margin: 5px 10px 0 0;
+  color: white;
+  background: green;
+  padding: 8px 12px;
+  border-radius: 5px;
+}
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+}
+section {
+  padding: 40px 20px;
+  border-bottom: 4px solid #eee;
+}
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
